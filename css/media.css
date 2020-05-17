@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+    .left img {
+        width: 100%;
+    }
+    .left {
+        width: 450px;
+    }
+    .right {
+        width: 470px;
+    }
+}
+@media (max-width: 992px) {
+    .nav-content {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .nav-list a {
+        font-size: 17px;
+        padding: 15px;
+    }
+    .main {
+        padding: 50px 0;
+    }
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .right {
+        width: 100%;
+        max-width: 500px;
+    }
+    .footer-content {
+        padding-right: 15px;
+    }
+    .logo {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .header {
+        height: 600px;
+    }
+    .nav-list a {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .header-content h1 {
+        margin-bottom: 35px;
+    }
+    .header-content p {
+        font-size: 16px;
+    }
+    .header-content span {
+        font-size: 18px;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-item {
+        padding: 15px 25px;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        height: auto;
+        min-height: 100vh;
+    }
+    .nav-list {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+    .header-content p {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content span {
+        padding: 5px 0;
+    }
+    .left h2 {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .left p {
+        text-align: justify;
+    }
+    .right .item {
+        display: block;
+        text-align: center;
+    }
+    .right img {
+        margin: 0;
+    }
+    .right h3 {
+        margin: 15px 0;
+    }
+    .right p {
+        text-align: justify;
+    }
+}
